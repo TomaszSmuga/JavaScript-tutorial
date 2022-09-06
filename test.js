@@ -1,11 +1,9 @@
-var myAge = 25;
+var age = 5;
 
-if (myAge < 18 || myAge > 30 ){
+while (age < 10) {
 
-   
-    document.write("you ain't coming")
-} else{
-    
-    document.write("Yea we're goin partying")
-
+    console.log("Your age is less than 10");
+    age ++;
 }
+
+document.write("you are now over 10");
