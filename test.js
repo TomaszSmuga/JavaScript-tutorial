@@ -1,9 +1,14 @@
-var a = "5";
-var b = 5
+var a = 6;
+var b = 5;
 
-console.log(a + b)
-console.log(typeof (a + b))
+if (isNaN(a)){
+    console.log("Not a number");
 
-console.log(Math.PI);
+} else{
+
+    console.log("meaning of life is " + (a + b));
+
+}
+
 
 
