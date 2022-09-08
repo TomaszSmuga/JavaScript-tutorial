@@ -1,8 +1,24 @@
-var myString = new String();
+var myArray = new Array();
 
-myString = "hello";
+myArray[0] = 8;
+myArray[1] = "hello";
 
-console.log(myString.length)
+var myCar = new Object();
+myCar.maxSpeed = 50;
+myCar.driver = "Tomek";
+myCar.drive = function(){ console.log("now diriving");};
 
+myCar.drive();
+
+var myCar2 = {
+            maxSpeed: 50, 
+            driver: "Smugeiro", 
+            drive: function(speed, time){ 
+            console.log(speed * time + " is the distance");}
+};
+
+
+console.log(myCar2.maxSpeed);
+myCar2.drive(50, 3);
 
 
