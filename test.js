@@ -1,14 +1,20 @@
-var str = "Hello, world";
-var str2 = str.slice(2,9) ;
-console.log(str2);
+var myArray = [];
 
-var str3 = str.slice(2)
+myArray[0] = 25
 
-var tags = "meat, ham, salami, pork, beef, chicken"
+console.log(myArray);
 
-var tagsArray = tags.split(",")
+myArray[1] = "bun"
+myArray[2] = 2 * 4
 
-console.log(tagsArray);
+var myArray2 = [10, 20, "uv", (3-5)*2]
+
+console.log(myArray2)
+
+var myArray3 = new Array(5)
+
+console.log(myArray2.sort());
+console.log(myArray2.reverse());
 
 
 
