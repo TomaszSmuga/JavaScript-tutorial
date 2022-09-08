@@ -1,7 +1,14 @@
-var string1 = "abc"
-var string2 = "bcd"
+var str = "Hello, world";
+var str2 = str.slice(2,9) ;
+console.log(str2);
 
-console.log(string1 < string2);
+var str3 = str.slice(2)
+
+var tags = "meat, ham, salami, pork, beef, chicken"
+
+var tagsArray = tags.split(",")
+
+console.log(tagsArray);
 
 
 
